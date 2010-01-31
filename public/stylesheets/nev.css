@@ -1,0 +1,223 @@
+
+body{
+	font-family: Verdana;
+	text-size: 12px;
+	text-align: center;
+	background-color: #F0F0F0;
+}
+
+.wrapper{
+	clear: both;
+	text-align: left;
+	background-color: #F0F0F0;
+	margin: 0 auto; 
+	width: 90%;
+	height: auto;
+}
+
+.contents{
+	background-color: #FFFFFF;
+	clear: both;
+	float: left;
+	border: 1px grey solid;
+	padding: 1em;
+	width: 100%;
+	height: auto;
+	
+}
+
+.header{
+	clear: both;
+	background-color: #F0F0F0;
+	float: right;
+	width: auto;
+	height: 5%;	
+	text-align: right;
+
+}
+
+.footer{
+	clear: both;
+	background-color: #FFFFFF;
+	color: grey;
+	margin-top: 0.5em;
+	margin: 0 auto; 
+	padding: 1em;
+	width: 100%;
+	height: 0.7em;
+	border: 1px grey solid;
+	text-align: right;
+}
+
+.front_page_left{
+	clear: both;
+	float: left;
+	width: 15%;	
+	border: 1px #C0C0C0 dotted;
+}
+
+.page_middle{
+	float: left;
+	width: 60%;
+	padding: 1em;
+}
+
+.front_page_right{
+	float: left;
+	width: 15%;
+	border: 1px #C0C0C0 dotted;
+}
+
+
+.toolbar{
+	clear: both;
+	float: right;	
+	width: 100%;
+}
+
+.toolbar div:first-child{
+	float: left;
+}
+
+.toolbar div:last-child{
+	float: right;
+}
+
+.container {
+	width: 100%;
+	display: inline;
+}
+
+.containerIn2 {
+	width: 45%;
+}
+
+.welcome{
+	clear: both;
+	float: left;
+	width: 45%;
+	padding: 0.5em;
+	border: 2px #C0C0C0 dotted;
+}
+
+.login{
+	float: left;
+	padding: 0.5em;
+	margin-left: 0.5em;
+	width: 45%;
+}
+
+
+
+h1{
+	text-size: 16px;
+}
+
+h2{
+	text-size: 14px;
+}
+
+.small{
+	text-size: 8px;
+}
+
+
+
+.clear{
+	clear:both;
+}
+
+.left{
+	float: left;
+}
+
+
+
+ul.newsfeed{
+	list-style: none;
+	border: 1px #COCOCO solid;
+	margin-left: 0;
+}
+
+ul.newsfeed li{
+	margin-left: 0;
+	
+	border-bottom: 1px #C0C0C0 dotted;
+	width: 26em;
+	height: auto;
+	padding: 0.2em;
+	margin-top: 0.4em;
+}
+
+ul.formList{
+	list-style: none;
+	margin-left: 1em;
+}
+
+ul.formList li{
+	width: 26em;
+	margin-top: 0.4em;
+	height: auto;
+}
+
+ul.formList li label{
+	clear: both;
+	float: left;
+	width: 30%;
+}
+
+ul.styledList{
+	list-style: none;
+}
+
+ul.styledList li{
+	clear: both;
+	margin-top: 0.3em;
+}
+
+ul.styledList input, textarea{
+	width: 60%;
+	float: right;
+}
+
+ul.styledList input[type="submit"]{
+	width: auto;
+	float: right;
+}
+
+ul.styledList li label{
+	width: 35%;
+	float: left;
+}
+
+.warning, .error{
+	color: red;
+	/*border: 1px dotted red;*/
+	width: auto;
+}
+
+.notice{
+	color: green;
+	/*border: 1px dotted red;*/
+	width: auto;
+}
+
+.marginBottom{
+	margin-bottom: 0.5em;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+
+
+

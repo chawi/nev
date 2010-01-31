@@ -1,0 +1,20 @@
+
+<% form_for :users do |f| %>
+	<ul class="styledList">
+		<li class="bold underline">Register</li>
+		<li><%= f.label :username, 'Username' %>
+		  <%= f.text_field :username %>
+		</li>
+		<li>
+			<%= f.label :psw, 'Password' %>
+		  <%= f.password_field :psw %>
+		</li>
+		<li>
+			<%= f.label :psw_confirm, 'Password confirmation' %>
+		  <%= f.password_field :psw_confirm %>
+		</li>
+		<li>
+		  <%= f.submit "Register" %>
+		</li>
+	</ul>
+<% end%>
